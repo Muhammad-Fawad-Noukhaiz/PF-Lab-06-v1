@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a=65536,b=2,n;
+    
+    printf("Enter number of terms");
+    scanf("%d",&n);
+    
+    for(int i=1;i<=n;i++) {
+        printf("%d\n",a);
+        a=a/b;
+        b++;
+    }
+
+    return 0;
+}
